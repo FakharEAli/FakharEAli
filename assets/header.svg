@@ -1,0 +1,65 @@
+<svg width="900" height="280" viewBox="0 0 900 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#101725"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.5" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- canvas -->
+  <rect width="900" height="280" rx="16" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="899" height="279" rx="15.5" stroke="#1e293b"/>
+
+  <!-- top accent line -->
+  <rect x="0" y="0" width="900" height="3" rx="1.5" fill="url(#accent)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- terminal chrome -->
+  <circle cx="34" cy="34" r="6" fill="#ff5f57"/>
+  <circle cx="56" cy="34" r="6" fill="#febc2e"/>
+  <circle cx="78" cy="34" r="6" fill="#28c840"/>
+  <text x="450" y="39" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" fill="#475569">fakhar@production: ~/systems</text>
+
+  <!-- name -->
+  <text x="40" y="103" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="42" font-weight="700" fill="url(#nameGrad)">FAKHAR E ALI</text>
+  <text x="42" y="132" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" fill="#06b6d4">AI Systems Architect — I ship software that runs businesses on its own.</text>
+
+  <!-- boot log -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">
+    <text x="40" y="172" fill="#64748b" opacity="0">
+      <tspan fill="#22d3ee">$</tspan> <tspan fill="#cbd5e1">alphactl boot --all</tspan>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.3s" fill="freeze"/>
+    </text>
+    <text x="40" y="196" fill="#64748b" opacity="0">
+      ▸ voice agents (calls answered by AI) <tspan fill="#28c840">.... ONLINE</tspan>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.0s" fill="freeze"/>
+    </text>
+    <text x="40" y="220" fill="#64748b" opacity="0">
+      ▸ content intelligence engine <tspan fill="#28c840">........... ONLINE</tspan>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.7s" fill="freeze"/>
+    </text>
+    <text x="40" y="244" fill="#64748b" opacity="0">
+      ▸ automation fleet (24/7, no humans) <tspan fill="#28c840">.... ONLINE</tspan>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.4s" fill="freeze"/>
+    </text>
+    <text x="600" y="244" fill="#94a3b8" opacity="0">
+      all systems nominal<tspan fill="#22d3ee"> ▊</tspan>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.1s" fill="freeze"/>
+    </text>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect x="838" y="230" width="10" height="18" fill="#22d3ee" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="1.2s" begin="3.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
