@@ -32,7 +32,7 @@
 
   <!-- name -->
   <text x="40" y="103" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="42" font-weight="700" fill="url(#nameGrad)">FAKHAR E ALI</text>
-  <text x="42" y="132" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" fill="#06b6d4">AI Systems Architect — I ship software that runs businesses on its own.</text>
+  <text x="42" y="132" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" fill="#06b6d4">AI Systems Architect · I ship software that runs businesses on its own.</text>
 
   <!-- boot log -->
   <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">
