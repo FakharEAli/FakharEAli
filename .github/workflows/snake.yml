@@ -25,5 +25,8 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          author: Fakhar E Ali <alifakhar816@gmail.com>
+          committer: Fakhar E Ali <alifakhar816@gmail.com>
+          commit_message: "chore: update contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

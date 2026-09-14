@@ -19,6 +19,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          COMMIT_MSG: "chore: update recent activity"
+          COMMIT_NAME: Fakhar E Ali
+          COMMIT_EMAIL: alifakhar816@gmail.com
+          COMMIT_MSG: "chore: update activity"
           MAX_LINES: 8
           TEMPLATE: "- ⚡ {TYPE} {LINK}"
