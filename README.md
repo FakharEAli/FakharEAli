@@ -23,14 +23,41 @@ I don't build demos. I build **autonomous systems that run real businesses**, th
 - 🤖 **Automation fleets**: n8n orchestration layers with exactly-once delivery semantics, atomic claim locks, and circuit breakers, because "the reminder email sent twice" is a bug I take personally
 - 🛠 **Agentic engineering itself**: I run multi-agent AI dev fleets with eval harnesses, golden corpora (84-video labeled test sets), adversarial verification passes, and calibration loops. My CI reviews my code before any human does.
 
+## 🖼 Featured work
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/FakharEAli/portfolio/tree/main/projects/verticalvoice"><img src="https://raw.githubusercontent.com/FakharEAli/portfolio/main/assets/covers/verticalvoice.png" alt="VerticalVoice" width="100%"/></a><br/>
+      <a href="https://github.com/FakharEAli/portfolio/tree/main/projects/verticalvoice"><b>VerticalVoice</b></a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/FakharEAli/portfolio/tree/main/projects/alphaos"><img src="https://raw.githubusercontent.com/FakharEAli/portfolio/main/assets/covers/alphaos.png" alt="AlphaOS" width="100%"/></a><br/>
+      <a href="https://github.com/FakharEAli/portfolio/tree/main/projects/alphaos"><b>AlphaOS</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/FakharEAli/portfolio/tree/main/projects/seatwise"><img src="https://raw.githubusercontent.com/FakharEAli/portfolio/main/assets/covers/seatwise.png" alt="SeatWise" width="100%"/></a><br/>
+      <a href="https://github.com/FakharEAli/portfolio/tree/main/projects/seatwise"><b>SeatWise</b></a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/FakharEAli/portfolio/tree/main/projects/clipper-tracking"><img src="https://raw.githubusercontent.com/FakharEAli/portfolio/main/assets/covers/clipper-tracking.png" alt="Clipper Tracking" width="100%"/></a><br/>
+      <a href="https://github.com/FakharEAli/portfolio/tree/main/projects/clipper-tracking"><b>Clipper Tracking</b></a>
+    </td>
+  </tr>
+</table>
+
+→ **[Full portfolio: 14 systems with real screenshots](https://github.com/FakharEAli/portfolio)**
+
 ## ⚡ Systems in production
 
 | System | What it does | Stack | Status |
 |---|---|---|---|
-| **[VerticalVoice](https://verticalvoice.alphaos.tech)** · [repo](https://github.com/FakharEAli/verticalvoice-ai) | Multi-tenant B2B SaaS: AI calling agents for healthcare, restaurants & real estate. Twilio↔Ultravox voice loop, tool-calling mid-call, full post-call transcript/recording pipeline | TypeScript · Next.js · Supabase · Twilio · Ultravox | 🟢 Live |
-| **AlphaOS** *(private)* | An AI operating system for a content agency: cross-platform analytics, RAG-grounded prospect intelligence, auto-generated pitch decks (PDF+PPTX), a podcast production engine, and a WhatsApp agent with 26 tools | Next.js · Supabase/pgvector · Inngest · Clerk · Claude/Gemini | 🟢 Live |
-| **Automation fleet** *(private)* | Multi-engine n8n orchestration: client onboarding pipelines, meeting intelligence with deterministic calendar-tag routing, booked-call reminder system with atomic Supabase claims (exactly-once, provably) | n8n · Supabase · Google Workspace | 🟢 24/7 |
-| **Outreach infrastructure** *(private)* | Cold-outreach analytics platform + email infrastructure with deliverability monitoring | Next.js · Supabase · Docker · Traefik | 🟢 Live |
+| **[VerticalVoice](https://verticalvoice.alphaos.tech)** · [case study](https://github.com/FakharEAli/portfolio/tree/main/projects/verticalvoice) | Multi-tenant B2B SaaS: AI calling agents for healthcare, restaurants & real estate. Twilio↔Ultravox voice loop, tool-calling mid-call, full post-call transcript/recording pipeline | TypeScript · Next.js · Supabase · Twilio · Ultravox | 🟢 Live |
+| **AlphaOS** *(private)* · [case study](https://github.com/FakharEAli/portfolio/tree/main/projects/alphaos) | An AI operating system for a content agency: cross-platform analytics, RAG-grounded prospect intelligence, auto-generated pitch decks (PDF+PPTX), a podcast production engine, and a WhatsApp agent with 26 tools | Next.js · Supabase/pgvector · Inngest · Clerk · Claude/Gemini | 🟢 Live |
+| **Automation fleet** *(private)* · [case study](https://github.com/FakharEAli/portfolio/tree/main/projects/automation-fleet) | Multi-engine n8n orchestration: client onboarding pipelines, meeting intelligence with deterministic calendar-tag routing, booked-call reminder system with atomic Supabase claims (exactly-once, provably) | n8n · Supabase · Google Workspace | 🟢 24/7 |
+| **Outreach infrastructure** *(private)* · [case study](https://github.com/FakharEAli/portfolio/tree/main/projects/outreach-dashboard) | Cold-outreach analytics platform + email infrastructure with deliverability monitoring | Next.js · Supabase · Docker · Traefik | 🟢 Live |
 
 ## 🧠 How I build
 
@@ -41,7 +68,7 @@ I don't build demos. I build **autonomous systems that run real businesses**, th
 4. Verify it like a skeptic       -> render the PDF and LOOK at it; text-grep gives false passes
 ```
 
-My commit messages read like incident reports: root cause, fix layers, test evidence. Pick any commit in [verticalvoice-ai](https://github.com/FakharEAli/verticalvoice-ai/commits) and judge for yourself.
+My commit messages read like incident reports: root cause, fix layers, test evidence. The repos are private, but the [VerticalVoice case study](https://github.com/FakharEAli/portfolio/tree/main/projects/verticalvoice) walks through the architecture, the compliance gates and the test suite so you can judge for yourself.
 
 ## 🗺 The ecosystem (10,000 ft view)
 
