@@ -1,63 +1,93 @@
 <div align="center">
-  <img src="assets/header.svg" alt="Fakhar E Ali, AI Systems Architect and AI Automation Engineer" width="100%"/>
+  <img src="assets/header.svg" alt="Fakhar E Ali, AI Systems Architect. 14 systems shipped." width="100%"/>
 </div>
+
+<h1 align="center">Fakhar E Ali</h1>
+<p align="center"><b>AI Systems Architect</b> · Founder, <a href="https://workupsolutions.com">Workup Solutions</a></p>
 
 <p align="center">
   <a href="https://workupsolutions.com"><img src="https://img.shields.io/badge/Workup_Solutions-Founder-7c3aed?style=flat-square&logo=safari&logoColor=white" alt="Workup Solutions"/></a>
   <a href="https://verticalvoice.alphaos.tech"><img src="https://img.shields.io/badge/VerticalVoice-Live-06b6d4?style=flat-square&logo=phone&logoColor=white" alt="VerticalVoice"/></a>
-  <a href="mailto:fakhar@alphaaccelerator.net"><img src="https://img.shields.io/badge/Email-fakhar%40alphaaccelerator.net-22d3ee?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:alifakhar816@gmail.com"><img src="https://img.shields.io/badge/Email-alifakhar816%40gmail.com-22d3ee?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/FakharEAli/portfolio"><img src="https://img.shields.io/badge/14_public_case_studies-real_screenshots-0d1117?style=flat-square&labelColor=7c3aed" alt="14 public case studies"/></a>
   <img src="https://komarev.com/ghpvc/?username=FakharEAli&style=flat-square&color=7c3aed" alt="Profile views"/>
 </p>
 
-I'm **Fakhar E Ali**, an **AI Systems Architect** and founder of [Workup Solutions](https://workupsolutions.com). I build **AI voice agents**, **LLM-powered automation**, and **multi-tenant SaaS platforms** with TypeScript, Next.js, Supabase, and n8n. Based in Pakistan, shipping worldwide.
+**What I build:** multi-tenant SaaS, AI agents and automation fleets that run real businesses, in TypeScript, Next.js, Supabase/Postgres and n8n.
+**How:** agentic engineering with Claude Code, spec first, verification before ship, deterministic gates behind every model.
+**Proof:** 14 systems documented with real screenshots in the [portfolio hub](https://github.com/FakharEAli/portfolio). About 95% of my commits live in private production repos; the case studies are the tour.
 
-> **⚠️ Fair warning about the green squares:** ~95% of my commits live in **private production repos** for client systems.
-> What you see below the fold is the visible 5%. The iceberg is under water, and it's running right now, in production, making money while I sleep.
+## 🏛 What I build
 
-## 🧬 What I do
+| Pillar | What it means | Flagships |
+|---|---|---|
+| 📞 **AI Voice SaaS** | Multi-tenant voice agents that answer a business's phone, book the appointment and enforce industry compliance deterministically | [VerticalVoice](https://github.com/FakharEAli/verticalvoice-ai-receptionist) |
+| 🎓 **Education-vertical AI agents** | Grounded assistants for training providers and academies: funding checks, level placement, enrolment, nurture sequences, with deterministic engines behind every model | [SeatWise](https://github.com/FakharEAli/seatwise-enrolment-agent) · [CohortPilot](https://github.com/FakharEAli/cohortpilot-admissions-ai) |
+| 🎬 **Content-agency operating stack** | The analytics, clip-selection, creative-QC, prospecting and roster-management systems a content agency actually runs on | [AlphaOS](https://github.com/FakharEAli/alphaos-agency-os) · [Clipper Tracking](https://github.com/FakharEAli/clipper-tracking-pwa) · [Carousel Lab](https://github.com/FakharEAli/carousel-lab-ai) · [Hook + Caption Lab](https://github.com/FakharEAli/hook-caption-lab) |
 
-I don't build demos. I build **autonomous systems that run real businesses**, then I hand over the keys.
-
-- 📞 **AI voice agents** that answer a company's phone line, book appointments, and log every call. Multi-tenant, live, taking real calls today
-- 🧠 **Content-intelligence engines** that ingest a creator's entire footprint (posts, transcripts, analytics across 5 platforms), ground it in RAG, and generate strategy documents an analyst would charge thousands for
-- 🤖 **Automation fleets**: n8n orchestration layers with exactly-once delivery semantics, atomic claim locks, and circuit breakers, because "the reminder email sent twice" is a bug I take personally
-- 🛠 **Agentic engineering itself**: I run multi-agent AI dev fleets with eval harnesses, golden corpora (84-video labeled test sets), adversarial verification passes, and calibration loops. My CI reviews my code before any human does.
-
-## 🖼 Featured work
+## 🖼 Featured systems
 
 <table>
   <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/FakharEAli/verticalvoice-ai-receptionist"><img src="https://raw.githubusercontent.com/FakharEAli/portfolio/main/assets/covers/verticalvoice.png" alt="VerticalVoice" width="100%"/></a><br/>
-      <a href="https://github.com/FakharEAli/verticalvoice-ai-receptionist"><b>VerticalVoice</b></a>
+    <td width="33%" valign="top">
+      <a href="https://github.com/FakharEAli/verticalvoice-ai-receptionist"><img src="https://raw.githubusercontent.com/FakharEAli/verticalvoice-ai-receptionist/main/cover.png" alt="VerticalVoice" width="100%"/></a><br/>
+      <a href="https://github.com/FakharEAli/verticalvoice-ai-receptionist"><b>VerticalVoice</b></a> 🟢 Live<br/>
+      <sub>Multi-tenant AI receptionist for healthcare, restaurants and real estate: one compiler, three industry packs, compliance enforced before any tool runs.</sub>
     </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/FakharEAli/alphaos-agency-os"><img src="https://raw.githubusercontent.com/FakharEAli/portfolio/main/assets/covers/alphaos.png" alt="AlphaOS" width="100%"/></a><br/>
-      <a href="https://github.com/FakharEAli/alphaos-agency-os"><b>AlphaOS</b></a>
+    <td width="33%" valign="top">
+      <a href="https://github.com/FakharEAli/alphaos-agency-os"><img src="https://raw.githubusercontent.com/FakharEAli/alphaos-agency-os/main/cover.png" alt="AlphaOS" width="100%"/></a><br/>
+      <a href="https://github.com/FakharEAli/alphaos-agency-os"><b>AlphaOS</b></a> 🟢 In production<br/>
+      <sub>Operating system for a premium content agency: cross-platform analytics, 25 AI intelligence modules, a benchmarked clip extractor, meeting knowledge and pre-sales tooling.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/FakharEAli/seatwise-enrolment-agent"><img src="https://raw.githubusercontent.com/FakharEAli/seatwise-enrolment-agent/main/cover.png" alt="SeatWise" width="100%"/></a><br/>
+      <a href="https://github.com/FakharEAli/seatwise-enrolment-agent"><b>SeatWise</b></a> 🟡 Pilot<br/>
+      <sub>A sourced, dated, rule-cited net fee for funded courses in seconds, and the seat booked in the same conversation.</sub>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/FakharEAli/seatwise-enrolment-agent"><img src="https://raw.githubusercontent.com/FakharEAli/portfolio/main/assets/covers/seatwise.png" alt="SeatWise" width="100%"/></a><br/>
-      <a href="https://github.com/FakharEAli/seatwise-enrolment-agent"><b>SeatWise</b></a>
+    <td width="33%" valign="top">
+      <a href="https://github.com/FakharEAli/cohortpilot-admissions-ai"><img src="https://raw.githubusercontent.com/FakharEAli/cohortpilot-admissions-ai/main/cover.png" alt="CohortPilot" width="100%"/></a><br/>
+      <a href="https://github.com/FakharEAli/cohortpilot-admissions-ai"><b>CohortPilot</b></a> 🟡 Pilot<br/>
+      <sub>The admissions officer that never sleeps: grounded answers, weighted level placement, kanban pipeline and conversation-driven nurture sequences.</sub>
     </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/FakharEAli/clipper-tracking-pwa"><img src="https://raw.githubusercontent.com/FakharEAli/portfolio/main/assets/covers/clipper-tracking.png" alt="Clipper Tracking" width="100%"/></a><br/>
-      <a href="https://github.com/FakharEAli/clipper-tracking-pwa"><b>Clipper Tracking</b></a>
+    <td width="33%" valign="top">
+      <a href="https://github.com/FakharEAli/clipper-tracking-pwa"><img src="https://raw.githubusercontent.com/FakharEAli/clipper-tracking-pwa/main/cover.png" alt="Clipper Tracking" width="100%"/></a><br/>
+      <a href="https://github.com/FakharEAli/clipper-tracking-pwa"><b>Clipper Tracking</b></a> 🟢 In production<br/>
+      <sub>Mobile-first PWA running a freelance clipper roster: post calendar, labelling, trial-reel routing, weekly PDF report, champions and streaks.</sub>
+    </td>
+    <td width="33%" valign="top">
+      <a href="https://github.com/FakharEAli/carousel-lab-ai"><img src="https://raw.githubusercontent.com/FakharEAli/carousel-lab-ai/main/cover.png" alt="Carousel Lab" width="100%"/></a><br/>
+      <a href="https://github.com/FakharEAli/carousel-lab-ai"><b>Carousel Lab</b></a> 🟢 In production<br/>
+      <sub>Transcript to on-brand Instagram carousel in about two minutes: AI decides, a deterministic renderer draws, nine QC gates check, a human approves.</sub>
     </td>
   </tr>
 </table>
 
-→ **[Full portfolio: 14 systems with real screenshots](https://github.com/FakharEAli/portfolio)**
-
-## ⚡ Systems in production
+## 🧰 More systems
 
 | System | What it does | Stack | Status |
 |---|---|---|---|
-| **[VerticalVoice](https://verticalvoice.alphaos.tech)** · [case study](https://github.com/FakharEAli/verticalvoice-ai-receptionist) | Multi-tenant B2B SaaS: AI calling agents for healthcare, restaurants & real estate. Twilio↔Ultravox voice loop, tool-calling mid-call, full post-call transcript/recording pipeline | TypeScript · Next.js · Supabase · Twilio · Ultravox | 🟢 Live |
-| **AlphaOS** *(private)* · [case study](https://github.com/FakharEAli/alphaos-agency-os) | An AI operating system for a content agency: cross-platform analytics, RAG-grounded prospect intelligence, auto-generated pitch decks (PDF+PPTX), a podcast production engine, and a WhatsApp agent with 26 tools | Next.js · Supabase/pgvector · Inngest · Clerk · Claude/Gemini | 🟢 Live |
-| **Automation fleet** *(private)* · [case study](https://github.com/FakharEAli/n8n-automation-fleet) | Multi-engine n8n orchestration: client onboarding pipelines, meeting intelligence with deterministic calendar-tag routing, booked-call reminder system with atomic Supabase claims (exactly-once, provably) | n8n · Supabase · Google Workspace | 🟢 24/7 |
-| **Outreach infrastructure** *(private)* · [case study](https://github.com/FakharEAli/outreach-analytics-dashboard) | Cold-outreach analytics platform + email infrastructure with deliverability monitoring | Next.js · Supabase · Docker · Traefik | 🟢 Live |
+| [**Automation Fleet**](https://github.com/FakharEAli/n8n-automation-fleet) | 36 n8n workflows across two self-hosted instances: onboarding, meeting intelligence, exactly-once reminders, prospecting, publishing, syncs | n8n · Supabase · Google Workspace · Docker · Traefik | 🟢 In production |
+| [**Hook + Caption Lab**](https://github.com/FakharEAli/hook-caption-lab) | Generator and critic agents for on-screen hooks and client-voice captions; a written standard compiled into deterministic gates plus a blind eval harness | Next.js · pgvector · Gemini · PM2 · Traefik | 🟢 In production |
+| [**Lead Engine**](https://github.com/FakharEAli/lead-discovery-engine) | Two-arm lead engine: podcast clip-gap discovery plus real-time intent monitoring, ICP scoring with tiers, AI openers every morning | Python · Next.js · Supabase · Apify · Claude · Gemini | 🟢 In production |
+| [**Outreach Dashboard**](https://github.com/FakharEAli/outreach-analytics-dashboard) | Dark-first KPI dashboard for a three-person outreach team: 8-stage funnel, trends, leaderboard, goal pacing, CSV and PDF export, RLS-enforced ownership | Next.js · Supabase · Recharts · Framer Motion | 🟢 In production |
+| [**Social Connect**](https://github.com/FakharEAli/social-connect-onboarding) | Signed-link creator onboarding: the agency mints an HMAC-signed link, the creator connects Instagram, Facebook, YouTube and TikTok in four clicks | Next.js · HMAC · Docker · Traefik | 🟢 In production |
+| [**Podcast to Clips**](https://github.com/FakharEAli/podcast-to-clips-engine) | One episode in, 10 to 12 finished YouTube videos out: transcribe, segment, cut, thumbnail, copy, review, publish, learn | Node/TS · Express · Postgres · BullMQ · Deepgram · Gemini · ffmpeg | ⚪ Internal |
+| [**Viral Script Generator**](https://github.com/FakharEAli/viral-script-generator) | Ten ranked short-form scripts in a creator's own voice: ingest reels, extract patterns, build a voice profile, generate with a critic loop | Next.js · pgvector · Claude · Gemini · Cohere · Deepgram | ⚪ Internal |
+| [**Autopost AI**](https://github.com/FakharEAli/autopost-ai-scheduler) | v1 social scheduling and analytics with a clipper leaderboard and six-role access; the AlphaOS predecessor | Express · Prisma · Supabase · S3 · Gemini · PM2 | ⚪ Superseded |
+
+→ **[All 14 case studies](https://github.com/FakharEAli/portfolio)**
+
+## 📈 By the numbers
+
+| | |
+|---|---|
+| **14** systems documented, every one shipped to production or pilot | **60** real screenshots (seeded demo data) across the case studies |
+| **3** live products you can open today: [VerticalVoice](https://verticalvoice.alphaos.tech), [SeatWise](https://seatwise.workupsolutions.com), [CohortPilot](https://cohortpilot.workupsolutions.com) | **36** n8n workflows running around the clock across two self-hosted instances |
+| **25** AI intelligence modules behind a versioned prompt registry in AlphaOS | **1,259** human-labelled moments across **179** videos: the frozen clip-selection benchmark |
+| **~90** tables under **30** Row-Level Security policies in VerticalVoice's multi-tenant schema | **~1,538** tests and **39** SQL migrations behind Clipper Tracking |
+| **10**-step onboarding wizard and **10**-step policy pipeline: a new voice tenant is live in 5 to 10 minutes | **9** deterministic QC gates before any carousel leaves the building |
 
 ## 🧠 How I build
 
@@ -66,62 +96,78 @@ I don't build demos. I build **autonomous systems that run real businesses**, th
 2. Test it like an adversary      -> golden corpora, eval harnesses, adversarial QA agents
 3. Ship it like it's forever      -> idempotency keys, circuit breakers, atomic claims
 4. Verify it like a skeptic       -> render the PDF and LOOK at it; text-grep gives false passes
+5. Keep the model on a leash      -> code, not the LLM, has the last word
 ```
 
-My commit messages read like incident reports: root cause, fix layers, test evidence. The repos are private, but the [VerticalVoice case study](https://github.com/FakharEAli/verticalvoice-ai-receptionist) walks through the architecture, the compliance gates and the test suite so you can judge for yourself.
+- **Agentic engineering with Claude Code.** Multi-agent dev workflows: spec first, then implementation, then adversarial review passes, with the written spec committed and audited clause by clause.
+- **Verification before ship.** Golden sets, blind eval modes, acceptance suites over HTTP, and deterministic gates a generous model cannot talk its way past.
+- **VPS + Docker + Traefik ops.** Standalone containers behind one Traefik instance with automatic TLS, health endpoints the orchestrator actually watches, one-command deploys and rollbacks, PM2 and GitHub Actions where they fit.
+- **Supabase / Postgres everywhere.** Row-Level Security for tenant isolation, pgvector for RAG, parameterised repositories with `server-only` guards, idempotent migrations, integer cents for money.
 
-## 🗺 The ecosystem (10,000 ft view)
+## 🗺 The ecosystem
 
 ```mermaid
 flowchart LR
-    subgraph Voice["📞 Voice Layer"]
-        TW[Twilio] <--> UV[Ultravox AI]
-        UV --> TC[Tool Calls]
+    subgraph Voice["📞 Voice SaaS"]
+        VV[VerticalVoice] --> TW[Twilio ⇄ Ultravox]
     end
-    subgraph Intel["🧠 Intelligence Layer"]
-        SC[Platform Scrapers] --> RAG[(pgvector RAG)]
-        RAG --> DOCS[Strategy Docs / Decks / Briefs]
+    subgraph Intel["🧠 Agency intelligence"]
+        AOS[AlphaOS] --> HCL[Hook + Caption Lab]
+        AOS --> CL[Carousel Lab]
+        AOS --> LE[Lead Engine]
     end
-    subgraph Fleet["🤖 Automation Fleet"]
-        N8N[n8n Engines] --> CAL[Calendar Intelligence]
-        N8N --> REM[Exactly-once Reminders]
-        N8N --> ONB[Client Onboarding]
+    subgraph Edu["🎓 Education agents"]
+        SW[SeatWise]
+        CP[CohortPilot]
     end
-    Voice --> DB[(Supabase)]
+    subgraph Fleet["🤖 Automation fleet"]
+        N8N[36 n8n workflows] --> AP[Autopost / publishing]
+    end
+    Voice --> DB[(Supabase · Postgres · pgvector)]
     Intel --> DB
+    Edu --> DB
     Fleet --> DB
-    DB --> OPS[Ops Dashboards · Next.js]
+    DB --> DASH[Ops dashboards · Next.js]
 ```
 
 ## 🛠 Arsenal
 
-**Languages & frameworks**
+**Frontend**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**Backend & data**
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-DC382D?style=flat-square)
+![Inngest](https://img.shields.io/badge/Inngest-000000?style=flat-square)
 
-**AI & agents**
+**AI**
 
 ![Claude](https://img.shields.io/badge/Anthropic_Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![Ultravox](https://img.shields.io/badge/Ultravox-Voice_AI-06b6d4?style=flat-square)
 ![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=flat-square&logo=deepgram&logoColor=black)
-![RAG](https://img.shields.io/badge/RAG-pgvector-7c3aed?style=flat-square)
+![Ultravox](https://img.shields.io/badge/Ultravox-Voice_AI-06b6d4?style=flat-square)
+![pgvector](https://img.shields.io/badge/pgvector-RAG-7c3aed?style=flat-square)
 
-**Infra & orchestration**
+**Ops**
 
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white)
-![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white)
-![Inngest](https://img.shields.io/badge/Inngest-000000?style=flat-square)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
 ## 📡 Recent transmissions
 
@@ -129,7 +175,7 @@ flowchart LR
 1. 🎉 Merged PR [#1](https://github.com/FakharEAli/verticalvoice-ai/pull/1) in [FakharEAli/verticalvoice-ai](https://github.com/FakharEAli/verticalvoice-ai)
 <!--END_SECTION:activity-->
 
-## 🐍 Contribution graph, being eaten
+## 🐍 Contribution graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FakharEAli/FakharEAli/output/github-snake-dark.svg"/>
@@ -141,11 +187,12 @@ flowchart LR
 
 <div align="center">
 
-**Want software that runs your business while you sleep?**
+**Work with me**
 
-[![Email](https://img.shields.io/badge/→_fakhar@alphaaccelerator.net-0d1117?style=for-the-badge&logo=gmail&logoColor=22d3ee)](mailto:fakhar@alphaaccelerator.net)
+[![Email](https://img.shields.io/badge/→_alifakhar816@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=22d3ee)](mailto:alifakhar816@gmail.com)
 [![Website](https://img.shields.io/badge/→_workupsolutions.com-0d1117?style=for-the-badge&logo=safari&logoColor=7c3aed)](https://workupsolutions.com)
 
+<sub>Source code for any system available under NDA.</sub><br/>
 <sub>⚡ This README maintains itself. GitHub Actions update it while I'm building.</sub>
 
 </div>

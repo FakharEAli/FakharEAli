@@ -28,32 +28,32 @@
   <circle cx="34" cy="34" r="6" fill="#ff5f57"/>
   <circle cx="56" cy="34" r="6" fill="#febc2e"/>
   <circle cx="78" cy="34" r="6" fill="#28c840"/>
-  <text x="450" y="39" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" fill="#475569">fakhar@production: ~/systems</text>
+  <text x="450" y="39" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" fill="#475569">fakhar@production: ~</text>
 
   <!-- name -->
   <text x="40" y="103" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="42" font-weight="700" fill="url(#nameGrad)">FAKHAR E ALI</text>
-  <text x="42" y="132" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" fill="#06b6d4">AI Systems Architect · I ship software that runs businesses on its own.</text>
+  <text x="42" y="132" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="16" fill="#06b6d4">AI Systems Architect · Founder, Workup Solutions · 14 systems shipped</text>
 
-  <!-- boot log -->
+  <!-- ls log -->
   <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14">
     <text x="40" y="172" fill="#64748b" opacity="0">
-      <tspan fill="#22d3ee">$</tspan> <tspan fill="#cbd5e1">alphactl boot --all</tspan>
+      <tspan fill="#22d3ee">$</tspan> <tspan fill="#cbd5e1">ls ~/systems --status</tspan>
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.3s" fill="freeze"/>
     </text>
     <text x="40" y="196" fill="#64748b" opacity="0">
-      ▸ voice agents (calls answered by AI) <tspan fill="#28c840">.... ONLINE</tspan>
+      ▸ voice-saas/      multi-tenant AI receptionists <tspan fill="#28c840">.............. LIVE</tspan>
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.0s" fill="freeze"/>
     </text>
     <text x="40" y="220" fill="#64748b" opacity="0">
-      ▸ content intelligence engine <tspan fill="#28c840">........... ONLINE</tspan>
+      ▸ education-ai/    enrolment + admissions agents <tspan fill="#febc2e">........... PILOT</tspan>
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.7s" fill="freeze"/>
     </text>
     <text x="40" y="244" fill="#64748b" opacity="0">
-      ▸ automation fleet (24/7, no humans) <tspan fill="#28c840">.... ONLINE</tspan>
+      ▸ agency-stack/    analytics, clips, 36 n8n workflows <tspan fill="#28c840">....... LIVE</tspan>
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.4s" fill="freeze"/>
     </text>
-    <text x="600" y="244" fill="#94a3b8" opacity="0">
-      all systems nominal<tspan fill="#22d3ee"> ▊</tspan>
+    <text x="640" y="244" fill="#94a3b8" opacity="0">
+      14 systems shipped<tspan fill="#22d3ee"> ▊</tspan>
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.1s" fill="freeze"/>
     </text>
   </g>
